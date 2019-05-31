@@ -48,10 +48,15 @@ class Blog extends Component {
                         <h1 className="text-center title-banner-post">Últimos Posts</h1>
                     </div>
                 </div>
-                <div className="row full-width no-margin section-blog">
-                    {posts}
-                </div>
-                <EmailContact email="info@borodigital.com" />
+                {(posts) ?
+                    <div>
+                        <div className="row full-width no-margin section-blog">
+                            {posts}
+                        </div>
+                        <EmailContact email="info@borodigital.com" />
+                    </div>
+                    : ''
+                }
             </Layout>
         )
     }
