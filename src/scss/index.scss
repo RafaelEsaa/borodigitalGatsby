@@ -1,0 +1,71 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./query.scss";
+@import "./colors.scss";
+
+//Menu
+.font-menu{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0px 7px;
+    color: $text-grey !important;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.font-weigth{
+    font-weight: 500;
+}
+
+//General
+.no-margin{
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.full-width{
+    width: 100% !important;
+}
+
+//Menu
+.logo-menu{
+    max-width: 150px;
+}
+
+.bg-menu{
+    background-color: rgba(248, 249, 250, 0.5);
+    // position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+
+.bg-menu-notop{
+    background-color: rgba(248, 249, 250, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    transition: 1s;
+}
+
+.collapse-menu-show{
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.collapse-menu{
+    display: none;
+}
+
+.style-link{
+    &:hover{
+        text-decoration: none;
+        
+    }
+}

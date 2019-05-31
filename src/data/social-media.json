@@ -1,0 +1,43 @@
+{
+    "plans": [
+        {
+            "titlePlan": "Basic",
+            "description": [
+                "Platform Analysis",
+                "Social Management of 1 platform",
+                "Setup & Design",
+                "5 post per Week",
+                "Unique Content Creation",
+                "Dedicated Social Media Manager",
+                "Monthly Reports"
+            ],
+            "price": "119$us per Month"
+        },
+        {
+            "titlePlan": "Medio",
+            "description": [
+                "Platform Analysis",
+                "Social Management of 2 platform",
+                "Setup & Design",
+                "10 post per Week",
+                "Unique Content Creation",
+                "Dedicated Social Media Manager",
+                "Monthly Reports"
+            ],
+            "price": "319$us per Month"
+        },
+        {
+            "titlePlan": "Avanzado",
+            "description": [
+                "Platform Analysis",
+                "Social Management of 3 platform",
+                "Setup & Design",
+                "15 post per Week",
+                "Unique Content Creation",
+                "Dedicated Social Media Manager",
+                "Monthly Reports"
+            ],
+            "price": "519$us per Month"
+        }
+    ]
+}

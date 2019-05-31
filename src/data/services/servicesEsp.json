@@ -1,0 +1,21 @@
+{
+    "title": "Nuestros Servicios",
+    "language": "Esp",
+    "services": [
+        {
+            "title": "Redes Sociales",
+            "src": "images/social-media.png",
+            "link": "/es/social-media"
+        },
+        {
+            "title": "Desarrollo Web",
+            "src": "images/web-development.png",
+            "id": "web-plans"
+        },
+        {
+            "title": "Redacción de Contenido",
+            "src": "images/content-writerr.png",
+            "link": "/es/content-writer"
+        }
+    ]
+}
