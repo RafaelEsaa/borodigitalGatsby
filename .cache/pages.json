@@ -1,0 +1,67 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-en-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-blog-en-js",
+        "jsonName": "blog-f7a",
+        "path": "/blog/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-pasos-para-iniciar-tu-negocio-73c",
+        "path": "/blog/pasos-para-iniciar-tu-negocio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-content-writer-en-js",
+        "jsonName": "content-writer-53b",
+        "path": "/content-writer/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-es-js",
+        "jsonName": "es-884",
+        "path": "/es/"
+    },
+    {
+        "componentChunkName": "component---src-pages-blog-es-js",
+        "jsonName": "es-blog-3e3",
+        "path": "/es/blog/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "es-blog-pasos-para-iniciar-tu-negocio-505",
+        "path": "/es/blog/pasos-para-iniciar-tu-negocio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-content-writer-es-js",
+        "jsonName": "es-content-writer-e76",
+        "path": "/es/content-writer/"
+    },
+    {
+        "componentChunkName": "component---src-pages-social-media-es-js",
+        "jsonName": "es-social-media-2cf",
+        "path": "/es/social-media/"
+    },
+    {
+        "componentChunkName": "component---src-pages-social-media-en-js",
+        "jsonName": "social-media-0fb",
+        "path": "/social-media/"
+    }
+]
