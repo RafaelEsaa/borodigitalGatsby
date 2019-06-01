@@ -5,24 +5,24 @@ import TitleSection from "./utils/TitleSection";
 import dataAbout from "../data/about.json";
 
 const About = ({ data }) => {
-    return (
-        <div className="row full-width about-us">
-            <div className="col-md-6">
-                <TitleSection data={dataAbout} title="About Us" hr="50%" />
-                <p className="text-aboutus text-center">{dataAbout.description}</p>
-            </div>
-            <div className="col-md-6">
-                <div style={{ maxWidth: `700px` }}>
-                    <Img fluid={data.fileName.childImageSharp.fluid} />
-                </div>
-            </div>
+  return (
+    <div className="row full-width about-us no-margin">
+      <div className="col-md-6">
+        <TitleSection data={dataAbout} title="About Us" hr="70%" />
+        <p className="text-aboutus text-center">{dataAbout.description}</p>
+      </div>
+      <div className="col-md-6">
+        <div style={{ maxWidth: `700px` }}>
+          <Img fluid={data.fileName.childImageSharp.fluid} />
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default props => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
       query {
         fileName: file(relativePath: { eq: "images/quienes-somos.png" }) {
           childImageSharp {
@@ -33,6 +33,6 @@ export default props => (
         }
       }
       `}
-        render={data => <About data={data} {...props} />}
-    />
+    render={data => <About data={data} {...props} />}
+  />
 )

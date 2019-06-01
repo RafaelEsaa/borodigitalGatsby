@@ -6,9 +6,9 @@ import dataAbout from "../data/aboutEs.json";
 
 const About = ({ data }) => {
   return (
-    <div className="row full-width about-us">
+    <div className="row full-width about-us no-margin">
       <div className="col-md-6">
-        <TitleSection data={dataAbout} title="About Us" hr="50%" />
+        <TitleSection data={dataAbout} title="About Us" hr="70%" />
         <p className="text-aboutus text-center">{dataAbout.description}</p>
       </div>
       <div className="col-md-6">

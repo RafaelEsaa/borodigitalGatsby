@@ -142,6 +142,10 @@
         }
         .description-banner-home{
             padding-top: 45px;
+            justify-content: center;
+            display: flex;
+            flex-direction: inherit;
+            align-items: center;
             button{
                 background: $pink;
                 border-radius: 36px;

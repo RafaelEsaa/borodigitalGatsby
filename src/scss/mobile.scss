@@ -80,7 +80,7 @@
     .mensaje-banner{
         position: absolute;
         z-index: 1;
-        top: 50%;
+        top: 47%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -144,6 +144,10 @@
         }
         .description-banner-home{
             padding-top: 45px;
+            justify-content: center;
+            display: flex;
+            flex-direction: inherit;
+            align-items: center;
             button{
                 background: $pink;
                 border-radius: 36px;
