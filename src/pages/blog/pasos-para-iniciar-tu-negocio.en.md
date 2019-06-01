@@ -1,5 +1,5 @@
 ---
-imgthumbnail: "facebook-logo.png"
+imgthumbnail: "business.jpg"
 title: "Pasos para iniciar tu negocio"
 date: "27-05-2007"
 ---
