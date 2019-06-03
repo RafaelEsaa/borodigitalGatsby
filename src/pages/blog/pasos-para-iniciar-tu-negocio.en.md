@@ -1,7 +1,7 @@
 ---
 imgthumbnail: "business.jpg"
 title: "Pasos para iniciar tu negocio"
-date: "27-05-2007"
+date: "27-05-2019"
 ---
 
 ##¿Quieres comenzar tu negocio y no sabes por dónde empezar?
