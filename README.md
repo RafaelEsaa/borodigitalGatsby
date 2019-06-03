@@ -8,7 +8,7 @@
   Website Borodigital
 </h1>
 
-Sitio web estático desarrollado y multidioma (es/en) en Gatsbyjs.
+Sitio web estático desarrollado en Gatsbyjs, multidioma (es/en), carga progresiva de imagenes y alimentado a traves de json sus páginas y menu (administrable).
 
 1. ``npm install``
 2. ``gatsby develop`` el projecto correra en localhost:8000
