@@ -64,7 +64,7 @@ class Blog extends Component {
 
 export const query = graphql`
     query {
-            allMarkdownRemark (filter:{fields:{langKey:{eq:"en"}}}){
+            allMarkdownRemark (filter:{fields:{langKey:{eq:"en"}}}, sort: {order: ASC, fields:frontmatter___date}){
                 edges {
                     node {
                         id
