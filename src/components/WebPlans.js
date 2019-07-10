@@ -20,7 +20,7 @@ const WebPlans = () => {
                     </div>
                     <div className="flex-services">
                         <h2 className="text-center text-services pb-3">Startup</h2>
-                        <p>Max 6 pages</p>
+                        <p>Max 10 pages</p>
                         <p>Custom Design Website</p>
                         <p>Advanced Interactivity</p>
                         <p>Domain</p>
@@ -28,7 +28,7 @@ const WebPlans = () => {
                         <p>Wordpress CMS</p>
                         <p>Mobile Optimized</p>
                         <p>Email Account</p>
-                        <h3 className="price pb-3">560$us and up</h3>
+                        <h3 className="price pb-3">350$us and up</h3>
                     </div>
                     <div className="flex-services">
                         <h2 className="text-center text-services pb-3">Business</h2>
