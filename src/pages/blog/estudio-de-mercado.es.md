@@ -1,7 +1,7 @@
 ---
 imgthumbnail: "business.jpg"
 title: "Estudio de Mercado"
-date: "07-11-2019"
+date: "2019-11-10"
 ---
 
 ## Estudio de Mercado
@@ -46,7 +46,7 @@ Recuerde que un buen conocimiento del mercado es esencial para poder reaccionar 
 
 <br/>
 
-### Paso 2: LA CLIENTE OBJETIVO
+### Paso 2: CLIENTE OBJETIVO
 
 
 La identificación de sus clientes es un elemento fundamental de su proyecto. Estas son las personas que realmente comprarán sus productos o servicios. Por lo tanto, es importante determinar sus necesidades, deseos, sensibilidad (al precio, calidad, cantidad, etc.) en su investigación de mercado. Describa también sus patrones de consumo, hábitos y comportamientos de compra. Especifique la zona de captación: ¿de dónde vienen sus clientes? ¿Dónde viven la mayor parte del tiempo? Esta definición de su público objetivo le permitirá priorizar sus esfuerzos de comunicación y ventas.

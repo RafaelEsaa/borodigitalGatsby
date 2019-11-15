@@ -1,7 +1,7 @@
 ---
 imgthumbnail: "mercadotecnia.jpg"
 title: "5 Tácticas de mercadeo para tu pequeña empresa. Vieja Escuela!"
-date: "04-07-2019"
+date: "2019-04-07"
 ---
 
 ## 5 Tácticas de mercadotecnia de la escuela vieja que puede usar para ayudar a su pequeña empresa a destacar
