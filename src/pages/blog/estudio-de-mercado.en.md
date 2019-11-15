@@ -1,5 +1,5 @@
 ---
-imgthumbnail: "business.jpg"
+imgthumbnail: "estudio-de-mercado.jpg"
 title: "Estudio de Mercado"
 date: "2019-11-10"
 ---
