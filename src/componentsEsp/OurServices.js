@@ -14,8 +14,8 @@ const OurServices = ({ data }) => {
 	const divOfServices = dataOurServices.services.map((data, i) => {
 		if (data.link) {
 			return (
-				<Link to={data.link}>
-					<div key={i} className="flex-services">
+				<Link to={data.link} key={i}>
+					<div className="flex-services">
 						{data.icons == "HowToRegIcon" ? (
 							<HowToRegIcon />
 						) : data.icons == "CodeIcon" ? (
@@ -37,8 +37,9 @@ const OurServices = ({ data }) => {
 					smooth={true}
 					offset={-150}
 					duration={900}
+					key={i}
 				>
-					<div key={i} className="flex-services">
+					<div className="flex-services">
 						{data.icons == "HowToRegIcon" ? (
 							<HowToRegIcon />
 						) : data.icons == "CodeIcon" ? (
