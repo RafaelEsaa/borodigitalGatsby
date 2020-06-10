@@ -20,11 +20,6 @@ const OurServices = ({ data }) => {
 						return (
 							<Link to={data.link}>
 								<div key={i} className="flex-services">
-									{/* <img
-										className="icon"
-										src={valImage.node.childImageSharp.fluid.src}
-										alt="icon-services"
-									/> */}
 									{data.icons == "HowToRegIcon" ? (
 										<HowToRegIcon />
 									) : data.icons == "CodeIcon" ? (
@@ -48,11 +43,6 @@ const OurServices = ({ data }) => {
 								duration={900}
 							>
 								<div key={i} className="flex-services">
-									{/* <img
-										className="icon"
-										src={valImage.node.childImageSharp.fluid.src}
-										alt="icon-services"
-									/> */}
 									{data.icons == "HowToRegIcon" ? (
 										<HowToRegIcon />
 									) : data.icons == "CodeIcon" ? (
