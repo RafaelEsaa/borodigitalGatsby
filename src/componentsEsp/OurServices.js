@@ -12,55 +12,47 @@ const OurServices = ({ data }) => {
 	const imageServices = data.imageServices.edges;
 
 	const divOfServices = dataOurServices.services.map((data, i) => {
-		const divImage = imageServices
-			.map((valImage, k) => {
-				if (valImage.node.relativePath === data.src) {
-					//tener tener un link va a la nueva pagina, sino hace scrollbar
-					if (data.link) {
-						return (
-							<Link to={data.link}>
-								<div key={i} className="flex-services">
-									{data.icons == "HowToRegIcon" ? (
-										<HowToRegIcon />
-									) : data.icons == "CodeIcon" ? (
-										<CodeIcon />
-									) : data.icons == "DescriptionIcon" ? (
-										<DescriptionIcon />
-									) : null}
-									<h2 className="text-center text-services no-margin">
-										{data.title}
-									</h2>
-								</div>
-							</Link>
-						);
-					} else {
-						return (
-							<Linkscroll
-								to={data.id}
-								spy={true}
-								smooth={true}
-								offset={-150}
-								duration={900}
-							>
-								<div key={i} className="flex-services">
-									{data.icons == "HowToRegIcon" ? (
-										<HowToRegIcon />
-									) : data.icons == "CodeIcon" ? (
-										<CodeIcon />
-									) : data.icons == "DescriptionIcon" ? (
-										<DescriptionIcon />
-									) : null}
-									<h2 className="text-center text-services no-margin">
-										{data.title}
-									</h2>
-								</div>
-							</Linkscroll>
-						);
-					}
-				}
-			})
-			.filter((valImage) => valImage !== undefined);
-		return divImage;
+		if (data.link) {
+			return (
+				<Link to={data.link}>
+					<div key={i} className="flex-services">
+						{data.icons == "HowToRegIcon" ? (
+							<HowToRegIcon />
+						) : data.icons == "CodeIcon" ? (
+							<CodeIcon />
+						) : data.icons == "DescriptionIcon" ? (
+							<DescriptionIcon />
+						) : null}
+						<h2 className="text-center text-services no-margin">
+							{data.title}
+						</h2>
+					</div>
+				</Link>
+			);
+		} else {
+			return (
+				<Linkscroll
+					to={data.id}
+					spy={true}
+					smooth={true}
+					offset={-150}
+					duration={900}
+				>
+					<div key={i} className="flex-services">
+						{data.icons == "HowToRegIcon" ? (
+							<HowToRegIcon />
+						) : data.icons == "CodeIcon" ? (
+							<CodeIcon />
+						) : data.icons == "DescriptionIcon" ? (
+							<DescriptionIcon />
+						) : null}
+						<h2 className="text-center text-services no-margin">
+							{data.title}
+						</h2>
+					</div>
+				</Linkscroll>
+			);
+		}
 	});
 
 	console.log(dataOurServices);
