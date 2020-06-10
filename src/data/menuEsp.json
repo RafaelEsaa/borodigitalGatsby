@@ -1,20 +1,21 @@
 {
-    "menu": [
-        {
-            "title": "Servicio",
-            "id": "services"
-        },
-        {
-            "title": "Planes Web",
-            "id": "web-plans"
-        },
-        {
-            "title": "Blog",
-            "link": "/es/blog"
-        },
-        {
-            "title": "Contáctanos",
-            "id": "contact-us"
-        }
-    ]
+	"menu": [
+		{
+			"title": "Servicio",
+			"id": "services"
+		},
+		{
+			"title": "Planes Web",
+			"id": "web-plans"
+		},
+		{
+			"title": "Blog",
+			"link": "/es/blog"
+		},
+		{
+			"title": "Contáctanos",
+			"id": "btn-contact-us",
+			"link": "/contact-us"
+		}
+	]
 }

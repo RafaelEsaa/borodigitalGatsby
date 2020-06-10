@@ -1,21 +1,24 @@
 {
-    "title": "Our Services",
-    "language": "Eng",
-    "services": [
-        {
-            "title": "Social Media Management",
-            "src": "images/social-media.png",
-            "link": "/social-media"
-        },
-        {
-            "title": "Web Development",
-            "src": "images/web-development.png",
-            "id": "web-plans"
-        },
-        {
-            "title": "Content Writer",
-            "src": "images/content-writerr.png",
-            "link": "/content-writer"
-        }
-    ]
+	"title": "Our Services",
+	"language": "Eng",
+	"services": [
+		{
+			"title": "Social Media Management",
+			"src": "images/social-media.png",
+			"link": "/social-media",
+			"icons": "HowToRegIcon"
+		},
+		{
+			"title": "Web Development",
+			"src": "images/web-development.png",
+			"id": "web-plans",
+			"icons": "CodeIcon"
+		},
+		{
+			"title": "Content Writer",
+			"src": "images/content-writerr.png",
+			"link": "/content-writer",
+			"icons": "DescriptionIcon"
+		}
+	]
 }

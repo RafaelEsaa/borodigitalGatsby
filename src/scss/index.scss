@@ -2,85 +2,106 @@
 @import "./query.scss";
 @import "./colors.scss";
 
-body{
-    font-family: 'Lato', sans-serif !important;
+body {
+	font-family: "Lato", sans-serif !important;
 }
 
 //Menu
-.font-menu{
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    padding: 0px 7px;
-    color: $text-grey !important;
-    &:hover{
-        text-decoration: none;
-    }
+.font-menu {
+	font-size: 17.5px;
+	letter-spacing: 0.5px;
+	padding: 0px 7px;
+	color: $white !important;
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+	}
 }
 
-.font-weigth{
-    font-weight: 500;
+.font-menu-fixed {
+	font-size: 17.5px;
+	letter-spacing: 0.5px;
+	padding: 0px 7px;
+	color: $text-grey !important;
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+	}
 }
 
-.btn-pink{
-    background: #E30489;
-    border-radius: 36px;
-    width: 160px;
-    font-size: 18px;
-    color: white;
-    font-weight: 300;
-    padding: 3px;
-    letter-spacing: 1px;
+.font-weigth {
+	font-weight: 500;
+}
+
+.btn-pink {
+	background: #e30489;
+	border-radius: 36px;
+	width: 160px;
+	font-size: 18px;
+	color: white;
+	font-weight: 300;
+	padding: 3px;
+	letter-spacing: 1px;
+}
+
+#btn-contact-us {
+	background-color: $blue-light;
+	padding: 5px 12px;
+	border-radius: 14px;
 }
 
 //General
-.no-margin{
-    margin: 0px;
+.no-margin {
+	margin: 0px;
 }
 
-.no-padding{
-    padding: 0px !important;
+.no-padding {
+	padding: 0px !important;
 }
 
-.full-width{
-    width: 100% !important;
+.full-width {
+	width: 100% !important;
 }
 
 //Menu
-.logo-menu{
-    max-width: 150px;
+.logo-menu {
+	max-width: 135px;
 }
 
-.bg-menu{
-    background-color: rgba(248, 249, 250, 0.5);
-    // position: fixed;
-    width: 100%;
-    z-index: 1;
-    transition: 1s;
+.bg-menu {
+	background-color: rgba(248, 249, 250, 0.1);
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	transition: 1s;
 }
 
-.bg-menu-notop{
-    background-color: rgba(248, 249, 250, 1);
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    transition: 1s;
+.bg-menu-notop {
+	background-color: rgba(248, 249, 250, 1);
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	transition: 1s;
 }
 
-.collapse-menu-show{
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-    transition: all 500ms ease-in;
+.collapse-menu-show {
+	-webkit-transition: all 500ms ease-in;
+	-moz-transition: all 500ms ease-in;
+	-ms-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
 }
 
-.collapse-menu{
-    display: none;
+.collapse-menu {
+	display: none;
 }
 
-.style-link{
-    &:hover{
-        text-decoration: none;
-        
-    }
+.style-link {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.icon-burguer {
+	background-color: red;
 }
