@@ -9,7 +9,7 @@ import Aboutus from "../componentsEsp/About";
 import ContactForm from "../componentsEsp/ContactForm";
 import OurServices from "../componentsEsp/OurServices";
 import BannerHome from "../componentsEsp/utils/BannerHome";
-import FeedInstagram from "../components/FeedInstagram";
+// import FeedInstagram from "../components/FeedInstagram";
 import EmailContact from "../components/utils/EmailContact";
 import WebPlans from "../componentsEsp/WebPlans";
 import { animateScroll as scroll } from "react-scroll";
