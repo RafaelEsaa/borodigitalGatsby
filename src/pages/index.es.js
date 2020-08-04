@@ -54,9 +54,7 @@ class IndexPage extends Component {
 				</div>
 				<WebPlans />
 				<div id="contact-us" className="row full-width footer no-margin">
-					<div className="col-md-6 col-sm-12">
-						<FeedInstagram />
-					</div>
+					<div className="col-md-6 col-sm-12">{/* <FeedInstagram /> */}</div>
 					{/* Add class form for flex, justify, align center*/}
 					<div className="col-md-6 col-sm-12 form">
 						<ContactForm />
