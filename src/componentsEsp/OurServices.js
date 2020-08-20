@@ -56,7 +56,6 @@ const OurServices = ({ data }) => {
 		}
 	});
 
-	console.log(dataOurServices);
 	return (
 		<div className="row full-width our-services no-margin" id="services">
 			<div className="col-md-6 franja-radius-right">
