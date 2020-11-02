@@ -37,7 +37,7 @@ class SocialMedia extends Component {
                         />
                     </div>
                     <div className="col-md-12 py-5">
-                        <h5>Tipos de posts: 300 palabras, 600 palabras o 1000 palabras</h5>
+                        <h5>Imagenes adicionales tiene un costo extra</h5>
                     </div>
                 </div>
                 <EmailContact email="info@borodigital.com" />

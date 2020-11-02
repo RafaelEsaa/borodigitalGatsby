@@ -14,7 +14,7 @@
 		},
 		{
 			"title": "Contact us",
-			"id": "btn-contact-us",
+			"id": "contact-us",
 			"link": "/contact-us"
 		}
 	]

@@ -11,8 +11,6 @@ const OurServices = ({ data }) => {
 	//data from static query image for services
 	const imageServices = data.imageServices.edges;
 
-	console.log("DATA: ", data.imageServices.edges);
-
 	const divOfServices = dataOurServices.services.map((data, i) => {
 		if (data.link) {
 			return (
