@@ -4,7 +4,7 @@ const ContactForm = () => {
 	return (
 		<div>
 			<h1 className="title">Contact us</h1>
-			<form action="https://formspree.io/info@borodigital.com" method="POST">
+			<form action="https://formspree.io/f/xknpazwy" method="POST">
 				<div className="form-group form-contact">
 					<label className="no-margin" name="fullname">
 						Full Name
