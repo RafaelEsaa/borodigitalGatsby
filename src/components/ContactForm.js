@@ -6,26 +6,27 @@ const ContactForm = () => {
 			<h1 className="title">Contact us</h1>
 			<form action="https://formspree.io/f/xknpazwy" method="POST">
 				<div className="form-group form-contact">
-					<label className="no-margin" name="fullname">
+					<label className="no-margin">
 						Full Name
 					</label>
-					<input className="form-control" placeholder="George" />
+					<input name="fullname" className="form-control" placeholder="George" />
 				</div>
 				<div className="form-group form-contact">
-					<label className="no-margin" name="email">
+					<label className="no-margin">
 						Email address
 					</label>
 					<input
+						name="email"
 						type="email"
 						className="form-control"
 						placeholder="name@example.com"
 					/>
 				</div>
 				<div className="form-group form-contact">
-					<label className="no-margin" name="description">
+					<label className="no-margin">
 						Project Description
 					</label>
-					<textarea className="form-control" rows="3" />
+					<textarea name="description" className="form-control" rows="3" />
 				</div>
 				<button type="submit" className="btn btn-contact-form text-center">
 					Sent
